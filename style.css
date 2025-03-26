@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #0078d7;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+#diamondsContainer {
+    position: absolute;
+
+    width: 30%;
+    aspect-ratio : 1 / 1;
+    background-color: yellow;
+}
+#miscContainer {
+    position: absolute;
+    aspect-ratio : 1 / 1;
+    width: 30%;
+    left: 30%;    
+    background-color: green;
+}
+#rectangleContainer{
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    background-color: blue;
+}
+
+.diamond {
+    aspect-ratio : 1 / 1;
+    width: 30%;
+    background-color:red;
+}
+
+#diamond1 {
+    position: absolute;
+    transform: translateY(130%) translateX(30%) rotate(45deg);
+
+}
+#diamond2 {
+    position: absolute;
+    transform: translateX(120%) translateY(40%) rotate(45deg);
+}
+
+#misc1, #misc2 {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+#misc1{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+#misc2 {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
