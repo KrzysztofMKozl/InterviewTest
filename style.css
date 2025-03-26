@@ -40,6 +40,50 @@ h1 {
     background-color: blue;
 }
 
+
+@media screen and (max-width: 900px) {
+    #diamondsContainer {
+        width: 40%;
+    }
+    #miscContainer {
+        width: 40%;
+        left: 0%;
+        aspect-ratio : 2 / 1;
+        transform: translateY(200%);
+    }
+    #rectangleContainer {
+        display:absolute;
+        width: 60%;
+        left: 40%;
+    }
+}
+@media screen and (max-width: 583px) {
+    #diamondsContainer {
+        display:relative;
+        aspect-ratio : 1 / 1;
+        width: 100%;
+        
+        left:0%;
+    }
+    #miscContainer {
+        display:relative;
+        aspect-ratio : 2 / 1;
+        width: 100%;
+        top:0%;
+        left:0%;
+        transform: translateY(200%);
+
+    }
+    #rectangleContainer {
+        display:relative;
+        width: 100%;
+        top:0%;
+        left:0%;
+        transform: rotate(90deg) translateX(150%) rotate(270deg) ;
+
+    }
+}
+
 .diamond {
     aspect-ratio : 1 / 1;
     width: 30%;
