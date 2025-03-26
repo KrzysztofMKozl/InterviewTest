@@ -28,7 +28,7 @@ h1 {
 }
 #miscContainer {
     position: absolute;
-    aspect-ratio : 1 / 1;
+    aspect-ratio : 2 / 1;
     width: 30%;
     left: 30%;    
     background-color: green;
@@ -38,6 +38,12 @@ h1 {
     width: 40%;
     left: 60%;
     background-color: blue;
+}
+
+@media screen and (min-width: 900px) {
+    #miscContainer {
+        transform: translateY(50%);
+    }
 }
 
 
@@ -101,18 +107,30 @@ h1 {
 }
 
 #misc1, #misc2 {
+    width:30%;
+    aspect-ratio : 8 / 1;
+    background-color: purple;
     position: absolute;
-    top: 5%;
-    left: 40%;
 }
 
 #misc1{
     position: absolute;
-    top: 5%;
-    left: 40%;
+    top: 40%;
+    left: 10%;
 }
 #misc2 {
     position: absolute;
-    top: 5%;
-    left: 40%;
+    top: 40%;
+    transform: translateY(300%);
+    left: 10%;
+}
+
+#misc3 {
+    width: 30%;
+    aspect-ratio : 1 / 1;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 25%;
+    left: 50%;
 }
